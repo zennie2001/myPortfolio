@@ -24,7 +24,7 @@ const ThemeProvider = ({ children }) => {
     <div className="min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white transition-colors duration-300">
       <button
         onClick={toggleTheme}
-        className="fixed right-8 lg:right-8 top-4 px-3 py-1 rounded-full bg-gray-200 dark:bg-gray-800"
+        className="fixed right-16 lg:right-8 top-4 px-3 py-1 rounded-full bg-gray-200 dark:bg-gray-800"
       >
          {theme === 'dark' ? <HiOutlineSun /> : <HiMiniMoon />} 
       </button>
