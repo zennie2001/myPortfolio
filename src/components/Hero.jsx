@@ -5,7 +5,7 @@ import profile from "../assets/profile.webp"
 
 function Hero() {
   return (
-    <div className='bg-slate-50 dark:bg-gray-900 w-full sm:h-[150vh] md:h-screen '>
+    <div id="home" className=' bg-slate-50 dark:bg-gray-900 w-full sm:h-[150vh] md:h-screen '>
         <div className='flex items-center justify-around md:flex-row lg:flex-row sm:flex-col gap-20 pt-20'>
             {/* Introduction */}
             <div className='md:w-[45%] md:pt-10 flex flex-col gap-8'>

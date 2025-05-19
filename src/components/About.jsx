@@ -3,7 +3,7 @@ import profile from "../assets/profile.webp"
 
 function About() {
   return (
-   <div className=' w-full sm:h-[200vh] md:h-[110vh] pt-20'>
+   <div id="about" className=' w-full sm:h-[200vh] md:h-[110vh] pt-20'>
     <div className='flex justify-center pb-16'>
       <h1 className='text-center text-2xl font-bold border-b-4 border-blue-400 border-spacing-2'>About Me</h1>
 
@@ -30,7 +30,7 @@ function About() {
               <p><span className='font-semibold'>Location:</span> Kathmandu, Nepal</p>
               <p><span className='font-semibold'>Phone:</span> +977-9844888976</p>
               </div>
-              <button className='px-4 py-2 border bg-blue-500 text-white rounded-md'>My Resume</button>
+              <button className='px-4 py-2 bg-blue-500 text-white rounded-md'>My Resume</button>
 
             </div>
 
