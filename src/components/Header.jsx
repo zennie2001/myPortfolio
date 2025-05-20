@@ -31,12 +31,12 @@ function Header() {
         <div className='flex items-center'>
         <ul className="hidden group relative md:flex space-x-6 text-gray-700 dark:text-gray-200 font-medium">
           {navItems.map((item) => (
-            <li key={item.id} className=" hover:border-b-2 hover:border-blue-500 group-hover:w-full cursor-pointer">
+            <li key={item.id} className=" ">
               <a href={`#${item.id}`}  onClick={() => handleClick(item.id)}
                 className={`pb-1 transition-colors duration-200 ${
                   activeSection === item.id
                     ? 'border-b-2 border-blue-500  '
-                    : ''
+                    : 'hover:border-b-2 hover:border-blue-500 group-hover:w-full cursor-pointer'
                 }`}>
               {item.label}
               </a>

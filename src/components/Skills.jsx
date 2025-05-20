@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
+import { HiOutlineGlobeAlt, HiServer  } from "react-icons/hi";
 
 function Skills() {
   const frontend = [
@@ -35,7 +36,10 @@ function Skills() {
         
       <div className="flex flex-col gap-1 p-6 bg-white dark:bg-gray-900 dark:text-white  rounded-2xl shadow-md">
         <div className=' flex flex-col gap-8 mb-4'>
-        <h1 className=' text-2xl font-semibold'>Frontend Development</h1>
+          <div className='flex items-center gap-6'>
+            <HiOutlineGlobeAlt className='text-4xl bg-blue-200 p-1 rounded-xl'/> 
+          <h1 className=' text-2xl font-semibold'> Frontend Development</h1>
+          </div>
         <p className='text-lg text-gray-800 dark:text-white'>Creating responsive and interactive user interfaces.</p>
         </div>
 
@@ -66,7 +70,11 @@ function Skills() {
         
       <div className="flex flex-col gap-1 p-6 bg-white dark:bg-gray-900 dark:text-white  rounded-2xl shadow-md">
         <div className=' flex flex-col gap-8 mb-4'>
-        <h1 className=' text-2xl font-semibold'>Backend Development</h1>
+          <div className='flex items-center gap-6'>
+            <HiServer className='text-4xl bg-blue-200 p-1 rounded-xl'/>
+            <h1 className=' text-2xl font-semibold'>Backend Development</h1>
+
+          </div>
         <p className='text-lg text-gray-800 dark:text-white'>Building robust and scalable server applications.</p>
         </div>
       
