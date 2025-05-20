@@ -1,12 +1,20 @@
 import React from 'react'
+import hero from "../assets/jennyPort.jpg"
 import { FiGithub } from "react-icons/fi";
 import { SlSocialLinkedin } from "react-icons/sl";
 import profile from "../assets/profile.webp"
 import { motion } from 'framer-motion';
+import { IoChevronDownSharp } from "react-icons/io5";
 
 function Hero() {
+    const scrollToAbout = () => {
+  const aboutSection = document.getElementById("about");
+  if (aboutSection) {
+    aboutSection.scrollIntoView({ behavior: "smooth" });
+  }
+};
   return (
-    <div id="home" className=' bg-slate-50 dark:bg-gray-900 w-full sm:h-[150vh] md:h-screen '>
+    <div id="home" className=' bg-slate-50 dark:bg-gray-900 w-full sm:h-[150vh] md:h-screen sm:px-16 md:px-14 lg:px-14 '>
         <div className='flex items-center justify-around md:flex-row lg:flex-row sm:flex-col gap-20 pt-20'>
             {/*  Animated Introduction Section */}
             <motion.div className='md:w-[45%] md:pt-10 flex flex-col gap-8'
@@ -34,12 +42,13 @@ function Hero() {
                     <a href='https://github.com/zennie2001' target="_blank" rel="noopener noreferrer">
                     <FiGithub className='text-2xl'/>
                     </a>
-                    <a href='' target="_blank" rel="noopener noreferrer">
+                    <a href='https://www.linkedin.com/in/jenny-dev-872535283/' target="_blank" rel="noopener noreferrer">
                     <SlSocialLinkedin className='text-2xl'  />
                     </a>
 
                 </div>
             </motion.div>
+            
 
             {/* Animated Profile Picture Section */}
             <motion.div className='flex '
@@ -47,13 +56,24 @@ function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: "anticipate", delay: 0.3 }}>
              <div className="rounded-full  border-[20px] border-blue-300">
-                <img src={profile}
+                <img src={hero}
                 className="w-80 h-80 rounded-full border-[20px] border-blue-400"
                 />
             </div>
 
             </motion.div>
         </div>
+
+        <motion.div
+        className="hidden md:flex text-2xl font-semibold justify-center cursor-pointer"
+        initial={{ y: 0 }}
+        animate={{ y: [0, 10, 0] }} // bounce effect
+        transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+        onClick={scrollToAbout}
+        >
+        <IoChevronDownSharp />
+        </motion.div>
+        
     </div>
   )
 }

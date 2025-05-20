@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
+import logo from "../assets/logoBrand.png"
 import ThemeProvider from './ThemeProvider';
+import { IoCodeSharp } from "react-icons/io5";
 
 function Header() {
 
@@ -20,12 +22,13 @@ function Header() {
 
 
   return (
-     <nav  className="scroll-smooth w-full fixed top-0 left-0 bg-white dark:bg-gray-900 shadow-md opacity-90 z-50">
-      <div className="max-w-7xl   md:px-14 sm:px-16 lg:px-14 flex justify-between items-center h-16">
+    <nav  className="scroll-smooth w-full fixed top-0 left-0 bg-white dark:bg-gray-900 shadow-md opacity-90 z-50">
+      <div className="max-w-7xl    md:px-14 sm:px-16 lg:px-14 flex justify-between items-center h-16">
         {/* Logo */}
-        <div className="text-2xl font-bold text-gray-800 dark:text-white">
-          <p>{`<>`}</p>
+        <div >
+          <img src={logo} className='w-10 h-10'/>
         </div>
+
 
         {/* Desktop Menu */}
         <div className='flex items-center'>

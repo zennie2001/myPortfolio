@@ -19,7 +19,7 @@ function Skills() {
       {name:"MongoDB", percentage: 85}
   ]
   return (
-    <div id="skills" className='bg-slate-50 dark:bg-gray-900 w-full sm:h-[170vh] md:h-[110vh] pt-20'>
+    <div id="skills" className='bg-slate-50 dark:bg-gray-900 w-full sm:h-[170vh] md:h-[110vh] pt-20 sm:px-16 md:px-14 lg:px-14'>
       {/* Title */}
       <div className='pb-16'>
       <div className='flex justify-center pb-10'>

@@ -16,7 +16,7 @@ function Experience() {
       </div>
 
       {/* experience */}
-      <div className='flex items-center  md:flex-row lg:flex-row sm:flex-col px-2 md:px-32 gap-10 '>
+      <div className='flex items-center  md:flex-row lg:flex-row  px-2  sm:px-16 md:px-36 lg:px-36'>
         <div className='md:w-[50%] shadow-md rounded-2xl overflow-hidden p-4 flex flex-col gap-3'>
           <h1 className='text-2xl font-semibold text-blue-500'>Web Developer Intern</h1>
           <p className='flex items-center gap-2 '><HiOutlineBriefcase /> CodSoft</p>
@@ -52,9 +52,12 @@ function Experience() {
                     {tool}
                   </span>
                 ))}
+                
               </div>
+              
 
         </div>
+        <div className="h-[370px] border-l-2 border-blue-400 mx-4"></div> 
       </div>
       </div>
   )

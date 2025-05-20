@@ -18,7 +18,7 @@ function Projects() {
 
 
   return (
-   <div id="projects" className=' w-full sm:pb-10 md:h-[190vh] pt-20'>
+   <div id="projects" className=' w-full sm:pb-10 md:h-[190vh] pt-20 sm:px-16 md:px-14 lg:px-14'>
       {/* Title */}
       <div className='pb-16'>
       <div className='flex justify-center pb-10'>

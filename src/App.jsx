@@ -17,7 +17,7 @@ function App() {
   return (
     <ThemeProvider>
       <Header/>
-      <div className='sm:px-16 md:px-14 lg:px-14'>
+      <div className=''>
         <Hero/>
         <About/>
         <Skills/>
