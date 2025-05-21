@@ -31,10 +31,10 @@ function Hero() {
 
                 <div className='flex gap-6 '>
                     <a href='#projects'>
-                    <button className='bg-blue-500 text-white  px-4 py-2 rounded-md'>View Projects</button>
+                    <button className='bg-blue-500 hover:bg-blue-600 text-white  px-4 py-2 rounded-md'>View Projects</button>
                     </a>
                     <a href='#footer'>
-                    <button className='border border-blue-500 px-4 py-2 rounded-md'>Contact Me</button>
+                    <button className='border border-blue-500 hover:bg-blue-500 hover:text-white px-4 py-2 rounded-md'>Contact Me</button>
                     </a>
                 </div>
 
