@@ -6,8 +6,8 @@ import logo from "../assets/logoBrand.png"
 
 function Footer() {
   return (
-     <div className='bg-gray-200 dark:bg-gray-800'>
-        <div className='flex flex-col sm:grid grid-cols-[3fr_1fr] gap-14 mb-10 pt-20 text-sm px-20'>
+     <div id="contact" className='bg-gray-200 dark:bg-gray-800'>
+        <div className='flex  flex-col sm:grid grid-cols-[1.5fr_1fr_1fr] gap-14 mb-10 pt-20 text-sm px-20'>
           {/* 1st part */}
           <div className='flex flex-col gap-8'>
             <div className='flex gap-4 text-xl'>
@@ -42,6 +42,12 @@ function Footer() {
             <a href='#projects'><p>Projects</p></a>
             <a href='#experience'><p>Experience</p></a>
 
+          </div>
+
+          <div className='flex items-center flex-col gap-3'>
+            <h1 className='text-xl font-semibold'>Contact</h1>
+            <p>+977-9844888976</p>
+            <p>Jennydev@2001</p>
           </div>
         </div>
 
