@@ -14,8 +14,8 @@ function Hero() {
   }
 };
   return (
-    <div id="home" className=' bg-slate-50 dark:bg-gray-900 w-full sm:h-[150vh] md:h-screen sm:px-16 md:px-14 lg:px-14 '>
-        <div className='flex items-center justify-around md:flex-row lg:flex-row sm:flex-col gap-20 pt-20'>
+    <div id="home" className='w-full pb-10 bg-slate-50 dark:bg-gray-900   '>
+        <div className='max-w-7xl mx-auto flex items-center justify-around md:flex-row lg:flex-row flex-col gap-20 pt-20 px-2 md:px-6 lg:px-14'>
             {/*  Animated Introduction Section */}
             <motion.div className='md:w-[45%] md:pt-10 flex flex-col gap-8'
                 initial={{ opacity: 0, y: 40 }}
@@ -33,7 +33,7 @@ function Hero() {
                     <a href='#projects'>
                     <button className='bg-blue-500 hover:bg-blue-600 text-white  px-4 py-2 rounded-md'>View Projects</button>
                     </a>
-                    <a href='#footer'>
+                    <a href='#contact'>
                     <button className='border border-blue-500 hover:bg-blue-500 hover:text-white px-4 py-2 rounded-md'>Contact Me</button>
                     </a>
                 </div>

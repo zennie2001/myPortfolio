@@ -18,7 +18,7 @@ function Projects() {
 
 
   return (
-   <div id="projects" className=' w-full sm:pb-10 md:h-[190vh] pt-20 sm:px-16 md:px-14 lg:px-14'>
+   <div id="projects" className=' w-full pb-10  pt-20 px-2 sm:px-16 md:px-14 lg:px-14'>
       {/* Title */}
       <div className='pb-16'>
       <div className='flex justify-center pb-10'>
@@ -45,7 +45,7 @@ function Projects() {
       </div>
 
       {/* Projects */}
-      <div className="grid grid-cols-1 dark:border-blue-50 md:grid-cols-3 gap-8 md:px-24">
+      <div className="grid grid-cols-1 dark:border-blue-50 md:grid-cols lg:grid-cols-3 gap-8 md:px-24">
         {filteredProjects.map((img, index) => (
           <div key={index} className=" rounded-lg shadow-md overflow-hidden pb-4">
             <div className="relative group overflow-hidden">

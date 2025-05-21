@@ -6,7 +6,7 @@ function Experience() {
   const tools = ["React", "Node.js", "MongoDB", "Express", "TailwindCSS", "JWT"];
 
   return (
-    <div id="experience" className='bg-slate-50 dark:bg-gray-900 w-full sm:h-[100vh] md:h-[100vh] pt-20'>
+    <div id="experience" className='bg-slate-50 dark:bg-gray-900 w-full  pb-10 px-2 pt-20'>
       {/* Title */}
       <div className='pb-16'>
       <div className='flex justify-center pb-10'>
@@ -17,7 +17,7 @@ function Experience() {
 
       {/* experience */}
       <div className='flex items-center  md:flex-row lg:flex-row  px-2  sm:px-16 md:px-36 lg:px-36'>
-        <div className='md:w-[50%] shadow-md rounded-2xl overflow-hidden p-4 flex flex-col gap-3'>
+        <div className='lg:w-[50%] shadow-md rounded-2xl overflow-hidden p-4 flex flex-col gap-3'>
           <h1 className='text-2xl font-semibold text-blue-500'>Web Developer Intern</h1>
           <p className='flex items-center gap-2 '><HiOutlineBriefcase /> CodSoft</p>
 

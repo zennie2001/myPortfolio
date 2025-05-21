@@ -10,7 +10,7 @@ function About() {
 
 
   return (
-   <div id="about" className=' w-full sm:h-[110vh] md:h-[110vh] pt-20 sm:px-16 md:px-14 lg:px-14'>
+   <div id="about" className=' w-full h-[100vh] md:h-[110vh] pt-20 px-2 sm:px-16 md:px-14 lg:px-14'>
     <div className='flex justify-center pb-16'>
       <h1 className='text-center text-2xl font-bold border-b-4 border-blue-400 border-spacing-2'>About Me</h1>
 

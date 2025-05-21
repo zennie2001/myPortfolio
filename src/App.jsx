@@ -17,14 +17,14 @@ function App() {
   return (
     <ThemeProvider>
       <Header/>
-      <div className=''>
+      
         <Hero/>
         <About/>
         <Skills/>
         <Projects/>
         <Experience/>
 
-      </div>
+      
       <Footer/>
     </ThemeProvider>
   )

@@ -7,7 +7,7 @@ import logo from "../assets/logoBrand.png"
 function Footer() {
   return (
      <div id="contact" className='bg-gray-200 dark:bg-gray-800'>
-        <div className='flex  flex-col sm:grid grid-cols-[1.5fr_1fr_1fr] gap-14 mb-10 pt-20 text-sm px-20'>
+        <div className='flex  flex-col items-center sm:grid grid-cols-[1.5fr_1fr_1fr] gap-14 mb-10 pt-20 text-sm px-20'>
           {/* 1st part */}
           <div className='flex flex-col gap-8'>
             <div className='flex gap-4 text-xl'>
