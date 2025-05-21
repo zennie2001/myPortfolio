@@ -61,7 +61,9 @@ function About() {
               <p><span className='font-semibold'>Phone:</span> +977-9844888976</p>
               </div>
               </div>
-              <button onClick={handleOpenPDF} className='px-4 py-2 bg-blue-500 text-white rounded-md'>My Resume</button>
+
+              {/* resume */}
+              {/* <button onClick={handleOpenPDF} className='px-4 py-2 bg-blue-500 text-white rounded-md'>My Resume</button> */}
 
             </motion.div>
 
