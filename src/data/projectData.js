@@ -4,6 +4,7 @@ import job from "../assets/job2.png"
 import ecommerce from "../assets/ecommerce.png"
 import quote from "../assets/quote.jpg"
 import snippet from "../assets/snippet.jpg"
+import chat from "../assets/chatapp.jpg"
 
 const projectData = [
  {
@@ -15,6 +16,16 @@ const projectData = [
     tags: ["Full Stack", "React", "Node.js", "MongoDB"],
     github: "https://github.com/zennie2001/E-commerce",
     live: "https://e-commerce-frontend-drab-nine.vercel.app",
+  },
+  {
+    url: chat,
+    title: "SwiftTalk - Real Time Chat Application",
+    description: "A real-time chat application using MERN stack, Socket.io, and Zustand with features like JWT-based authentication, online user status, and real-time messaging.",
+    tools: ["React", "Node.js","Socke.io", "MongoDB", "JWT"],
+    features: ["Authentication && Authorization with JWT", "Real-time messaging with Socket.io", "Real-time online status" , "Global state management with Zustand"],
+    tags: ["Full Stack", "React", "Node.js", "MongoDB"],
+    github: "https://github.com/zennie2001/Real-Time-Chat-Application",
+    live: "https://real-time-chat-new-frontend.vercel.app/login",
   },
   {
     url: job,
