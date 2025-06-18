@@ -13,6 +13,8 @@ function Header() {
     { label: 'Contact', id: 'contact' },
   ];
 
+
+
   const [activeSection, setActiveSection] = useState('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -26,7 +28,9 @@ function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-14 flex justify-between items-center h-16">
         {/* Logo */}
         <div>
-          <img src={logo} className='w-10 h-10' alt="Logo" />
+          
+          <img src={logo} className='w-10 h-10' alt="Logo" /> 
+          
         </div>
 
         {/* Desktop Menu */}

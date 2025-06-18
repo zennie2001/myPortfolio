@@ -14,17 +14,17 @@ function Hero() {
 };
   return (
     <div id="home" className='w-full pb-10  bg-gradient-to-b from-blue-200 to-white  dark:bg-gray-800 dark:from-gray-800 dark:to-gray-700'>
-        <div className='max-w-7xl mx-auto flex items-center justify-around md:flex-row lg:flex-row flex-col gap-20 pt-20 px-2 md:px-6 lg:px-14'>
+        <div className='max-w-7xl mx-auto flex items-center justify-around md:flex-row lg:flex-row flex-col gap-20 pt-20 px-6 md:px-6 lg:px-14'>
             {/*  Animated Introduction Section */}
             <motion.div className='md:w-[45%] md:pt-10 flex flex-col gap-8'
                 initial={{ opacity: 0, x: -80 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, ease: 'easeOut' }}>
-                <p className='text-2xl font-serif bg-gradient-to-r from-blue-400 to-green-800 bg-clip-text text-transparent'>Hello, I'm Jenny Dev</p>
+                <p className='text-2xl font-serif bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent'>Hello, I'm Jenny Dev</p>
                 <div>
-                <h1 className='text-5xl font-semibold'>MERN</h1>
-                <h1 className="indent-20 text-5xl font-semibold">Stack</h1>
-                <h1 className="indent-40 text-5xl font-semibold">Developer</h1>
+                <h1 className='text-5xl font-semibold bg-gradient-to-r from-blue-600 to-indigo-800 bg-clip-text text-transparent'>MERN</h1>
+                <h1 className="indent-20 text-5xl font-semibold bg-gradient-to-r from-indigo-600 to-green-800 bg-clip-text text-transparent">Stack</h1>
+                <h1 className="indent-40 text-5xl font-semibold bg-gradient-to-r from-green-600 to-indigo-800 bg-clip-text text-transparent">Developer</h1>
                 </div>
                 <p className='text-xl pt-5 text-gray-800 dark:text-white'>I build exceptional digital experiences with modern technologies. Specializing in creating responsive, user-friendly applications with clean and efficient code.</p>
 
@@ -53,7 +53,7 @@ function Hero() {
             <motion.div className='flex '
                initial={{ opacity: 0, x: 80 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8, ease: "anticipate", delay: 0.6 }}>
+                transition={{ duration: 0.8, ease: "anticipate"}}>
              <div className="rounded-full  border-[20px] border-blue-300">
                 <img src={hero}
                 className="w-80 h-80 rounded-full border-[20px] border-blue-400"
