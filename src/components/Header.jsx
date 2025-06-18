@@ -22,7 +22,7 @@ function Header() {
   };
 
   return (
-    <nav className="scroll-smooth w-full fixed top-0 left-0 bg-white dark:bg-gray-900 shadow-md opacity-90 z-50">
+    <nav className="scroll-smooth w-full fixed top-0 left-0 bg-white dark:bg-gray-900  shadow-md opacity-90 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-14 flex justify-between items-center h-16">
         {/* Logo */}
         <div>

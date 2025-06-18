@@ -46,7 +46,7 @@ function About() {
             Proficient in modern JavaScript,Typescript, RESTful APIs, database modeling, and UI/UX design. Strong problem-solving skills and a passion for delivering optimized, real-world solutions across the full development lifecycle.
             </motion.p>
             
-            <motion.div className='shadow-lg p-2 mt-6 bg-gray-100 rounded-xl dark:bg-gray-700'
+            <motion.div className='shadow-lg p-2 mt-6 bg-blue-100 rounded-xl dark:bg-gray-700'
               initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: "anticipate", delay: 0.9 }}>

@@ -2,7 +2,6 @@ import React from 'react'
 import hero from "../assets/jennyPort.jpg"
 import { FiGithub } from "react-icons/fi";
 import { SlSocialLinkedin } from "react-icons/sl";
-import profile from "../assets/profile.webp"
 import { motion } from 'framer-motion';
 import { IoChevronDownSharp } from "react-icons/io5";
 
@@ -14,14 +13,14 @@ function Hero() {
   }
 };
   return (
-    <div id="home" className='w-full pb-10 bg-slate-50 dark:bg-gray-900   '>
+    <div id="home" className='w-full pb-10 dark:bg-gray-800 bg-gradient-to-b from-blue-200 to-white  '>
         <div className='max-w-7xl mx-auto flex items-center justify-around md:flex-row lg:flex-row flex-col gap-20 pt-20 px-2 md:px-6 lg:px-14'>
             {/*  Animated Introduction Section */}
             <motion.div className='md:w-[45%] md:pt-10 flex flex-col gap-8'
-                initial={{ opacity: 0, y: 40 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, ease: 'easeOut' }}>
-                <p className='text-2xl font-serif text-blue-500'>Hello, I'm Jenny Dev</p>
+                initial={{ opacity: 0, x: -80 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, ease: 'easeOut' }}>
+                <p className='text-2xl font-serif bg-gradient-to-r from-blue-700 to-green-800 bg-clip-text text-transparent'>Hello, I'm Jenny Dev</p>
                 <div>
                 <h1 className='text-5xl font-semibold'>MERN</h1>
                 <h1 className="indent-20 text-5xl font-semibold">Stack</h1>
@@ -52,9 +51,9 @@ function Hero() {
 
             {/* Animated Profile Picture Section */}
             <motion.div className='flex '
-               initial={{ opacity: 0, y: 40 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, ease: "anticipate", delay: 0.3 }}>
+               initial={{ opacity: 0, x: 80 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, ease: "anticipate", delay: 0.6 }}>
              <div className="rounded-full  border-[20px] border-blue-300">
                 <img src={hero}
                 className="w-80 h-80 rounded-full border-[20px] border-blue-400"
