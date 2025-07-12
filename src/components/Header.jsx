@@ -33,8 +33,9 @@ function Header() {
           
         </div>
 
-        {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6 text-gray-700 dark:text-gray-200 font-medium">
+        
+          {/* Desktop Menu */}
+        <ul className="hidden lg:flex space-x-6 text-gray-700 dark:text-gray-200 font-medium">
           {navItems.map((item) => (
             <li key={item.id}>
               <a
@@ -50,9 +51,10 @@ function Header() {
               </a>
             </li>
           ))}
+         
         </ul>
 
-        {/* Theme toggle and mobile menu icon */}
+         {/* Theme toggle and mobile menu icon */}
         <div className="flex items-center gap-4">
           <ThemeProvider />
           {/* Mobile Menu Toggle */}
@@ -63,7 +65,10 @@ function Header() {
             {isMenuOpen ? <IoClose /> : <IoMenu />}
           </button>
         </div>
-      </div>
+
+        
+        </div>
+      
 
       {/* Mobile Menu */}
       {isMenuOpen && (

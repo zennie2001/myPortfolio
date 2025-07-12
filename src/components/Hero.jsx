@@ -26,7 +26,7 @@ function Hero() {
                 <h1 className="indent-20 text-5xl font-semibold bg-gradient-to-r from-indigo-600 to-green-800 bg-clip-text text-transparent">Stack</h1>
                 <h1 className="indent-40 text-5xl font-semibold bg-gradient-to-r from-green-600 to-indigo-800 bg-clip-text text-transparent">Developer</h1>
                 </div>
-                <p className='text-xl pt-5 text-gray-800 dark:text-white'>I build exceptional digital experiences with modern technologies. Specializing in creating responsive, user-friendly applications with clean and efficient code.</p>
+                <p className='text-xl pt-5 text-gray-800 dark:text-white'>I craft exceptional digital experiences using the MERN stack. Passionate about building responsive, user-friendly applications with clean, efficient code. I focus on delivering high-performance web solutions that blend modern design with robust functionality.</p>
 
                 <div className='flex gap-6 '>
                     <a href='#projects'>
