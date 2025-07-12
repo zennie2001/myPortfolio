@@ -5,8 +5,19 @@ import ecommerce from "../assets/ecommerce.png"
 import quote from "../assets/quote.jpg"
 import snippet from "../assets/snippet.jpg"
 import chat from "../assets/chatapp.jpg"
+import Lckhp from "../assets/Lckhp.png"
 
 const projectData = [
+  {
+    url: Lckhp,
+    title: "Leo Club Of Kathmandu Himalayas Patan",
+    description: "A responsive website for Nepal’s oldest Leo Club, highlighting 50+ years of service, with features like leadership profiles, event calendar, project dashboard, and donation directories.",
+    tools: ["React", "Typescript"],
+    features: ["Fully responsive design", "Leadership profiles", "Event calendar" , "Project dashboard"],
+    tags: [ "React"],
+    github: "https://github.com/zennie2001/lckhp-website",
+    live: "https://lckhp-website.vercel.app/",
+  },
  {
     url: ecommerce,
     title: "Forever Choice - E-Commerce Platform",
