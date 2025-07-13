@@ -6,10 +6,10 @@ function Experience() {
   const tools = ["React", "Node.js", "MongoDB", "Express", "TailwindCSS", "JWT"];
 
   return (
-    <div id="experience" className='bg-blue-100 dark:bg-gray-800 w-full  pb-10 px-2 pt-20'>
+    <div id="experience" className='bg-blue-100 dark:bg-gray-800 w-full  pb-10 px-8 pt-20'>
       {/* Title */}
       <div className='pb-16'>
-      <div className='flex justify-center pb-10'>
+      <div className='flex justify-center pb-4'>
         <h1 className=' text-center text-2xl font-bold border-b-4 border-blue-400 border-spacing-2'>Work Experience</h1>
       </div>
         <p className='text-xl text-center '>My professional journey and work experience in the tech industry.</p>
@@ -19,7 +19,7 @@ function Experience() {
       <div className='flex items-center md:flex-row lg:flex-row  px-2  sm:px-16 md:px-36 lg:px-36'>
         <div className='lg:w-[50%] bg-blue-50 shadow-md rounded-2xl overflow-hidden p-4 flex flex-col gap-3'>
           <h1 className='text-2xl font-semibold text-blue-500'>Web Developer Intern</h1>
-          <p className='flex items-center gap-2 '><HiOutlineBriefcase /> CodSoft</p>
+          <p className='flex items-center gap-2 '><HiOutlineBriefcase />CodSoft</p>
 
           <div className='flex gap-16 items-center'>
             <p className='flex items-center gap-2 '> <HiOutlineCalendar /> Apr 2025 - May 2025</p>

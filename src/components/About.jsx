@@ -10,8 +10,8 @@ function About() {
 
 
   return (
-   <div id="about" className=' w-full h-[100vh] md:h-[110vh] pt-20 px-2 sm:px-16 md:px-14 lg:px-14'>
-    <div className='flex justify-center pb-16'>
+   <div id="about" className=' w-full h-[100vh] md:h-[110vh] pt-20 px-8 sm:px-16 md:px-14 lg:px-14'>
+    <div className='flex justify-center pb-12'>
       <h1 className='text-center text-2xl font-bold border-b-4 border-blue-400 border-spacing-2'>About Me</h1>
 
     </div>
@@ -51,8 +51,8 @@ function About() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: "anticipate", delay: 0.9 }}>
               <p className='text-lg font-semibold'>Personal Information:</p>
-              <div className='flex flex-row justify-between gap-2 pt-2 pb-6'>
-                <div className='flex flex-col gap-2'>
+              <div className='lg:flex lg:flex-row justify-between gap-2 pt-2 pb-6'>
+                <div className='flex flex-col gap-2 pb-2 lg:pb-0'>
               <p><span className='font-semibold'>Name:</span> Jenny Dev</p>
               <p><span className='font-semibold'>Email:</span> jennydev2001@gmail.com</p>
               </div>

@@ -18,22 +18,22 @@ function Projects() {
 
 
   return (
-   <div id="projects" className=' w-full pb-10  pt-20 px-2 sm:px-16 md:px-14 lg:px-14'>
+   <div id="projects" className=' w-full pb-10  pt-20 px-8 sm:px-16 md:px-14 lg:px-14'>
       {/* Title */}
-      <div className='pb-16'>
-      <div className='flex justify-center pb-10'>
+      <div className='pb-12'>
+      <div className='flex justify-center pb-4'>
         <h1 className=' text-center text-2xl font-bold border-b-4 border-blue-400 border-spacing-2'>My Projects</h1>
       </div>
-        <p className='text-xl text-center '>Here's a collection of my recent projects, showcasing my skills and experience throughout my journey.</p>
+        <p className='text-xl text-center '>Here's a collection of my recent projects, showcasing my skills and <br/> experience throughout my journey.</p>
       </div>
 
       {/* Filter Badges */}
-      <div className="flex flex-wrap gap-3 justify-center mb-10">
+      <div className="flex flex-wrap gap-3 justify-center mb-12">
         {tags.map((tag, index) => (
           <button
             key={index}
             onClick={() => setActiveTag(tag)}
-            className={`px-3 py-1 rounded-full text-sm font-medium border ${
+            className={`px-3 py-1 rounded-full text-sm font-medium border hover:bg-blue-100 ${
               activeTag === tag
                 ? "bg-blue-500 text-white"
                 : "bg-gray-50 text-gray-700"

@@ -19,13 +19,13 @@ function Skills() {
       {name:"MongoDB", percentage: 85}
   ]
   return (
-    <div id="skills" className='bg-blue-100 dark:bg-gray-800 w-full pb-10  pt-20 px-2 sm:px-16 md:px-14 lg:px-14'>
+    <div id="skills" className='bg-blue-100 dark:bg-gray-800 w-full pb-10  pt-20 px-8 sm:px-16 md:px-14 lg:px-14'>
       {/* Title */}
       <div className='pb-16'>
-      <div className='flex justify-center pb-10'>
+      <div className='flex justify-center pb-4'>
         <h1 className=' text-center text-2xl font-bold border-b-4 border-blue-400 border-spacing-2'>My Skills</h1>
       </div>
-        <p className='text-xl text-center '>Here are the technologies and skills I've acquired throughout my journey as a MERN Stack Developer.</p>
+        <p className='text-xl text-center '>Here are the technologies and skills I've acquired throughout <br/> my journey as a MERN Stack Developer.</p>
       </div>
 
       {/* skills */}
