@@ -6,7 +6,7 @@ function Skills() {
   const frontend = [
   { name: 'React.js', percentage: 90 },
    {name:"Next.js", percentage: 80},
-    {name:"TypeScript", percentage: 70},
+    {name:"TypeScript", percentage: 80},
   { name: 'JavaScript', percentage: 95 },
   { name: 'HTML/CSS', percentage: 98 },
   ];
@@ -19,7 +19,7 @@ function Skills() {
       {name:"MongoDB", percentage: 85}
   ]
   return (
-    <div id="skills" className='bg-blue-100 dark:bg-gray-800 w-full pb-10 pt-20 px-2 sm:px-16 md:px-14 lg:px-14'>
+    <div id="skills" className='bg-blue-100 dark:bg-gray-800 w-full pb-10  pt-20 px-2 sm:px-16 md:px-14 lg:px-14'>
       {/* Title */}
       <div className='pb-16'>
       <div className='flex justify-center pb-10'>
@@ -29,7 +29,7 @@ function Skills() {
       </div>
 
       {/* skills */}
-      <div className='flex items-center   md:flex-col lg:flex-row flex-col px-2 md:px-32 gap-10 '>
+      <div className='flex items-center   md:flex-col lg:flex-row flex-col px-2 md:px-[68px] gap-10 '>
         {/* frontend Development */}
 
       <div className='w-full px-2'>
