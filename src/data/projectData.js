@@ -21,7 +21,7 @@ const projectData = [
  {
     url: ecommerce,
     title: "Forever Choice - E-Commerce Platform",
-    description: "A full-featured online shopping platform with user authentication, cart, and checkouts.",
+    description: "A full-featured online shopping platform built with MERN stack. Includes secure JWT-based user authentication, shopping cart functionality, and order history tracking for a seamless e-commerce experience.",
     tools: ["React", "Node.js", "MongoDB", "JWT"],
     features: ["User authentication", "Product catalog with search and filters", "Shopping cart" , "Order history and tracking"],
     tags: ["Full Stack", "React", "Node.js", "MongoDB"],
