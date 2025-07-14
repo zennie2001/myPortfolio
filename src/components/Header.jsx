@@ -41,7 +41,7 @@ function Header() {
               <a
                 href={`#${item.id}`}
                 onClick={() => handleClick(item.id)}
-                className={`pb-1 transition-colors duration-200 ${
+                className={`pb-1 uppercase transition-colors duration-200 ${
                   activeSection === item.id
                     ? 'border-b-2 border-blue-500'
                     : 'hover:border-b-2 hover:border-blue-500 cursor-pointer'
