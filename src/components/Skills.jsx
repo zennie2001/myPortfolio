@@ -4,9 +4,9 @@ import { HiOutlineGlobeAlt, HiServer  } from "react-icons/hi";
 
 function Skills() {
   const frontend = [
+    {name:"Next.js", percentage: 90},
   { name: 'React.js', percentage: 90 },
-   {name:"Next.js", percentage: 80},
-    {name:"TypeScript", percentage: 80},
+   {name:"TypeScript", percentage: 85},
   { name: 'JavaScript', percentage: 95 },
   { name: 'HTML/CSS', percentage: 98 },
   ];

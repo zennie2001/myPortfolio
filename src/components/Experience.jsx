@@ -3,7 +3,7 @@ import { HiOutlineBriefcase, HiOutlineCalendar} from "react-icons/hi2";
 import { RxDotFilled } from "react-icons/rx";
 
 function Experience() {
-  const tools = ["React", "Node.js", "MongoDB", "Express", "TailwindCSS", "JWT"];
+  const tools = ["Next.js", "Typescript", "React.js", "Node.js", "MongoDB", "Express", "TailwindCSS", "JWT"];
 
   return (
     <div id="experience" className='bg-blue-100 dark:bg-gray-800 w-full  pb-10 px-8 pt-20'>
@@ -18,26 +18,26 @@ function Experience() {
       {/* experience */}
       <div className='flex items-center md:flex-row lg:flex-row  px-2  sm:px-16 md:px-36 lg:px-36'>
         <div className='lg:w-[50%] bg-blue-50 shadow-md rounded-2xl overflow-hidden p-4 flex flex-col gap-3'>
-          <h1 className='text-2xl font-semibold text-blue-500'>Web Developer Intern</h1>
-          <p className='flex items-center gap-2 '><HiOutlineBriefcase />CodSoft</p>
+          <h1 className='text-2xl font-semibold text-blue-500'>Fullstack Developer</h1>
+          <p className='flex items-center gap-2 '><HiOutlineBriefcase />Supreme IT Solutions</p>
 
           <div className='flex gap-16 items-center'>
-            <p className='flex items-center gap-2 '> <HiOutlineCalendar /> Apr 2025 - May 2025</p>
+            <p className='flex items-center gap-2 '> <HiOutlineCalendar /> April 2024 - August 2025</p>
             <p className='flex items-center gap-1'><RxDotFilled />Remote</p>
           </div>
 
           <div className='mb-4'>
-            <ul className="  dark:text-white text-gray-700">
-            <li className="pl-4 relative">
-                <span className="absolute left-0 top-1 text-xl">•</span>
-                Contributed significantly to the design and development of full-stack web applications using the MERN stack
+            <ul className="list-disc ml-6  dark:text-white text-gray-700">
+            <li className="">
+                {/* <span className="absolute left-0 top-1 text-xl">•</span> */}
+                Worked as a Full Stack Developer, contributing to multiple high-impact projects across diverse domains by designing and implementing scalable web applications with robust performance.
               </li>              
-              <li className="pl-4 relative">
-                <span className="absolute left-0 top-1 text-xl">•</span>
-                 Played a key role in creating responsive user interfaces with React while building secure and scalable APIs using Node.js and Express.
+              <li className="">
+                {/* <span className="absolute left-0 top-1 text-xl">•</span> */}
+                Optimized backend systems, ensured seamless frontend–backend integration, and played a key role in adopting modern practices, improving CI/CD pipelines, and enhancing overall code quality.
               </li>
-               <li className="pl-4 relative">
-                <span className="absolute left-0 top-1 text-xl">•</span>
+               <li className="">
+                {/* <span className="absolute left-0 top-1 text-xl">•</span> */}
                  Gained hands-on experience with real-world projects, applying best practices in modern web development, database integration with MongoDB, and end-to-end deployment.
               </li>
             </ul>

@@ -2,16 +2,28 @@
 import food from "../assets/food1.png"
 import job from "../assets/job2.png"
 import ecommerce from "../assets/ecommerce.png"
+import Foreverchoice from "../assets/foreverchoice.png"
 import quote from "../assets/quote.jpg"
 import snippet from "../assets/snippet.jpg"
 import chat from "../assets/chatapp.jpg"
 import Lckhp from "../assets/Lckhp.png"
+import Rgcreations from "../assets/rgcreations.png"
 
 const projectData = [
   {
+    url: Rgcreations,
+    title: "RG Creations Nepal",
+    description: "RG Creations Nepal official website is live, modern, and SEO-friendly—designed to showcase services, projects, and expertise while ensuring strong online visibility. It is renowned as Nepal’s No.1 firm for hotel construction, specialize in hospitality architecture, commercial spaces, and modern nightlife venues.",
+    tools: ["Next.js", "Typescript"],
+    features: ["Homepage with bold branding, expertise highlight, and featured projects.", "Services section: hospitality architecture, commercial buildings, interiors, nightclub design, turnkey solutions, furniture & equipment supply.", "News & Blogs: media coverage, updates, and educational articles." , "Client trust: testimonials, Google reviews"],
+    tags: ["Next.js", "Typescript"],
+    github: "https://github.com/zennie2001/rgcreationsnepal",
+    live: "https://rgcreationsnepal.vercel.app/",
+  },
+  {
     url: Lckhp,
     title: "Leo Club Of Kathmandu Himalayas Patan",
-    description: "A responsive website for Nepal’s oldest Leo Club, highlighting 50+ years of service, with features like leadership profiles, event calendar, project dashboard, and donation directories.",
+    description: "Leo Club of Kathmandu Himalayas is Nepal’s oldest Leo Club with a legacy of over 50 years of youth-led service and leadership. Its official website is live and responsive, designed to showcase the club’s journey. The site features leadership profiles, an event calendar, a project dashboard, and donation directories.",
     tools: ["React", "Typescript"],
     features: ["Fully responsive design", "Leadership profiles", "Event calendar" , "Project dashboard"],
     tags: [ "React"],
@@ -19,7 +31,7 @@ const projectData = [
     live: "https://lckhp-website.vercel.app/",
   },
  {
-    url: ecommerce,
+    url: Foreverchoice,
     title: "Forever Choice - E-Commerce Platform",
     description: "A full-featured online shopping platform built with MERN stack. Includes secure JWT-based user authentication, shopping cart functionality, and order history tracking for a seamless e-commerce experience.",
     tools: ["React", "Node.js", "MongoDB", "JWT"],

@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 
 function About() {
 
-  const handleOpenPDF = () =>{
-    window.open('/Jenny.pdf', "_blank")
-  }
+  // const handleOpenPDF = () =>{
+  //   window.open('/Jenny.pdf', "_blank")
+  // }
 
 
 
@@ -29,14 +29,14 @@ function About() {
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: 'easeOut' }}>
-              I'm a <span className='text-blue-500'>MERN Stack Developer</span> with a passion for building digital experiences...
+              I'm a <span className='text-blue-500'>Full Stack Developer</span> with a passion for building digital experiences...
               </motion.h2>
 
             <motion.p
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: "anticipate", delay: 0.3 }}>
-              I’m a passionate MERN Stack Developer with 1.5+ years of hands-on experience in building modern, responsive, and scalable web applications. I specialize in creating seamless user experiences on the front end while engineering robust and efficient solutions on the back end — delivering full-stack applications that are both user-centric and performance-driven.
+              I’m a passionate Full Stack Developer with 2+ years of hands-on experience in building modern, responsive, and scalable web applications. I specialize in creating seamless user experiences on the front end while engineering robust and efficient solutions on the back end — delivering full-stack applications that are both user-centric and performance-driven.
             </motion.p>
 
             <motion.p

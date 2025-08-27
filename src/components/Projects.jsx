@@ -80,7 +80,7 @@ function Projects() {
 
               {/* View detils */}
               <div className='p-4 flex justify-between'>
-                <p  onClick={() => setSelectedProject(img)} className='text-xl text-blue-500 cursor-pointer'>View Details</p>
+                <p  onClick={() => setSelectedProject(img)} className='text-xl text-blue-500 hover:underline cursor-pointer'>View Details</p>
                 <div className='flex gap-4'>
                   <a href={img.github} target="_blank" rel="noopener noreferrer">
                     <LuGithub className='text-xl cursor-pointer text-gray-700 hover:text-black dark:text-white' />
